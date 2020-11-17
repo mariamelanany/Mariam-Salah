@@ -1,0 +1,43 @@
+userAge = int( input ( “Please enter your age: “ ) )
+
+if userAge <= 3:
+     print(  “\nYou are in Daycare” ) 
+elif userAge <= 4: 
+     print(   “\nYou are in Pre-K” )
+elif userAge <= 5: 
+     print(   “\nYou are in Kindergarten”)
+elif userAge <=6: 
+     print(    “\n You are in First Grade”) 
+elif userAge <= 7:
+     print(    “\n You are in Second Grade”)
+elif userAge <= 8:
+     print(     “\n You are in Third Grade”)
+elif userAge <= 9: 
+     print(     “\n You are in Fourth Grade”)
+elif userAge <= 10:
+     print(     “\n You are in Fifth Grade”)
+elif userAge <= 11:
+     print(      “\n You are in Sixth Grade”)
+elif userAge <= 12:
+     print(      “\n You are in Seventh Grade”)
+elif userAge <= 13:
+     print(      “\n You are in Eighth Grade”)
+elif userAge <= 14:
+     print(       “\n You are in Ninth Grade”)
+elif userAge <= 15:
+     print(        “\n You are in Tenth Grade”) 
+elif UserAge <= 16:
+     print(        “\n You are in Eleventh Grade”)
+elif UserAge <= 17:
+     print(        “\n You are in Twelfth Grade”)
+elif UserAge <= 18:
+     print(         “\n You are in College”)
+if userAge > 22:
+     print(  “Please enter your height” ) 
+elif userHeight < 5: 
+     print(   “\nYou are short” )
+elif userHeight >= 5:
+     print(   “\nYou are medium”)
+elif userHeight >6: 
+     print(    “\n You are tall”) 
+
