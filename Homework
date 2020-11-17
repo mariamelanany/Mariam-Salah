@@ -1,0 +1,13 @@
+def collatz(n):
+    if n == 1:      # base case
+        return 0
+
+    # if n is an even positive integer
+    elif ((n % 2) == 0):
+        return 1 + collatz(n / 2)
+
+    # if n is an odd positive integer
+    else:
+        return 1 + collatz(3 * n + 1)
+
+print(collatz(7))
